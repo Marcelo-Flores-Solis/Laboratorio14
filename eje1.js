@@ -4,7 +4,7 @@ function redondearPrecio(precio) {
     console.log(`Redondeo hacia abajo: ${Math.floor(precio)}`);
     console.log(`Redondeo hacia arriba: ${Math.ceil(precio)}`);
     console.log(`Redondeo normal: ${Math.round(precio)}`);
-    console.log("------------------------------");
+    console.log("---------");
 }
 
 redondearPrecio(12.49);
