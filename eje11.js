@@ -58,5 +58,5 @@ console.log("Cuadrado creado de lado 5:");
 console.log(c.nombre + ": área =", c.area(), ", perímetro =", c.perimetro());
 
 const t = new Triangulo(4, 3, 4);
-console.log("Triángulo creado de base 4, altura 3 y lado 4:");
+console.log("Triángulo creado de lados 4, 3, 4:");
 console.log(t.nombre + ": área =", t.area(), ", perímetro =", t.perimetro());
