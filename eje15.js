@@ -74,7 +74,6 @@ console.log(`¿Retiro exitoso? ${resultadoAhorro}. Saldo actual: $${ahorro.saldo
 console.log("Intento retirar $400 de CuentaCorriente");
 const resultadoCorriente = corriente.retirar(400);
 console.log(`¿Retiro exitoso? ${resultadoCorriente}. Saldo actual: $${corriente.saldo}`);
-// Ahora saldo se actualizará a -150 correctamente
 
 console.log("Transferir $100 de CuentaCorriente a CuentaAhorro");
 const resultadoTransf = corriente.transferir(100, ahorro);
